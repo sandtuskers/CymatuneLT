@@ -142,8 +142,5 @@ This software is provided "AS IS" without warranty of any kind.
 
 ## 📞 Support
 
-- **Issues:** [GitHub Issues](https://github.com/yourusername/cymatune-lt/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/yourusername/cymatune-lt/discussions)
-- **Email:** [your-email@example.com]
-
+- **Issues:** https://github.com/sandtuskers/CymatuneLT/issues
 ---
