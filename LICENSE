@@ -1,0 +1,172 @@
+# Cymatune LT - Proprietary Software License
+
+Copyright (c) 2024-2025 Cymatune LT Development Team. All Rights Reserved.
+
+---
+
+## Proprietary License
+
+**Cymatune LT is proprietary, closed-source software.** This application and its source code are protected by copyright law and international treaties.
+
+### Usage Rights
+
+You are granted a limited, non-exclusive, non-transferable license to:
+- ✅ Install and use the application on your personal devices
+- ✅ Use the application for personal security and privacy protection
+
+### Restrictions
+
+You may NOT:
+- ❌ Reverse engineer, decompile, or disassemble the application
+- ❌ Copy, modify, or create derivative works
+- ❌ Distribute, sublicense, or sell the application
+- ❌ Remove or alter any copyright, trademark, or licensing notices
+- ❌ Use the application for commercial purposes without permission
+- ❌ Extract or reuse any proprietary algorithms or code
+
+### Proprietary Components
+
+The following are proprietary and closed-source:
+- All detection algorithms and methodologies
+- Self-learning database architecture
+- Trust scoring system
+- Native signal analysis library (C++)
+- User interface design and implementation
+- Database schema and encryption implementation
+- All business logic and core functionality
+
+---
+
+## Open Source Dependencies
+
+This application incorporates the following open-source components, which remain under their respective licenses:
+
+### 1. SQLCipher for Android
+- **License:** BSD-style License
+- **Copyright:** Zetetic LLC
+- **Source:** https://github.com/sqlcipher/android-database-sqlcipher
+- **Purpose:** Database encryption (AES-256)
+- **License Text:** See https://github.com/sqlcipher/sqlcipher/blob/master/LICENSE
+
+### 2. AndroidX Libraries
+- **License:** Apache License 2.0
+- **Copyright:** The Android Open Source Project
+- **Source:** https://developer.android.com/jetpack/androidx
+- **Components:**
+  - androidx.core:core-ktx
+  - androidx.appcompat:appcompat
+  - androidx.constraintlayout:constraintlayout
+  - androidx.room:room-runtime
+  - androidx.security:security-crypto
+  - androidx.lifecycle:lifecycle-*
+  - androidx.fragment:fragment-ktx
+  - androidx.sqlite:sqlite
+- **License Text:** See https://source.android.com/license
+
+### 3. Material Components for Android
+- **License:** Apache License 2.0
+- **Copyright:** Google LLC
+- **Source:** https://github.com/material-components/material-components-android
+- **Purpose:** UI design system
+- **License Text:** See https://github.com/material-components/material-components-android/blob/master/LICENSE
+
+### 4. Kotlin Standard Library
+- **License:** Apache License 2.0
+- **Copyright:** JetBrains s.r.o. and Kotlin Programming Language contributors
+- **Source:** https://kotlinlang.org/
+- **Purpose:** Programming language runtime
+- **License Text:** See https://github.com/JetBrains/kotlin/blob/master/license/LICENSE.txt
+
+### 5. Test Dependencies (Testing Only)
+- **JUnit 5:** Eclipse Public License 2.0
+- **Robolectric:** MIT License
+- **Mockito:** MIT License
+- **Espresso:** Apache License 2.0
+- **AndroidX Test:** Apache License 2.0
+- **Kotlin Coroutines Test:** Apache License 2.0
+- **JavaFaker:** Apache License 2.0
+- **MockK:** Apache License 2.0
+
+**Note:** Test dependencies are used only during development and testing, not included in the final application distribution.
+
+---
+
+## Research Acknowledgments
+
+The following resources informed our development (no code used, educational purposes only):
+
+### Academic Research Papers
+See [ACKNOWLEDGMENTS.md](ACKNOWLEDGMENTS.md) for complete list of research papers that informed our understanding of IMSI catcher detection techniques.
+
+### Concept Inspirations (No Code Used)
+- **OpenCelliD** - Inspired the concept of tower databases (we use local, self-learning approach)
+- **Mozilla Location Service** - Inspired location-based validation (we use local implementation)
+- **CellInfo (CC0 1.0)** - Inspired signal terminology concepts (original implementation)
+
+**All detection algorithms and implementations are original proprietary work.**
+
+---
+
+## Components NOT Used
+
+The following were researched but **NOT included** in the final implementation:
+
+- ❌ OpenStreetMap (OSM) - Not used
+- ❌ osmdroid library - Not used
+- ❌ External tower databases - Not used (self-learning local approach)
+- ❌ Logcat Reader components - Not used
+
+---
+
+## Compliance with Open Source Licenses
+
+This proprietary application complies with all open source license requirements by:
+
+1. ✅ **Attribution** - Providing clear attribution for all open source components
+2. ✅ **License Preservation** - Maintaining original licenses for open source dependencies
+3. ✅ **Separation** - Keeping open source components separate from proprietary code
+4. ✅ **Distribution** - Including required license texts and notices
+5. ✅ **No Misrepresentation** - Clearly distinguishing proprietary code from open source
+
+---
+
+## Disclaimer
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+**Security Disclaimer:** Cymatune LT is a security tool, not a guarantee. No security application can detect 100% of IMSI catchers or guarantee complete protection against surveillance. Use this application as one component of a comprehensive security strategy.
+
+**Legal Disclaimer:** This application is intended for personal security and privacy protection only. Users are responsible for ensuring their use complies with all applicable laws and regulations in their jurisdiction.
+
+---
+
+## Data Privacy
+
+- **No Cloud Storage:** All data is stored locally on your device
+- **No Analytics:** No usage tracking or analytics
+- **No Data Sharing:** Zero data transmission to external servers
+- **Encryption:** All local data encrypted with SQLCipher (AES-256)
+
+See [PRIVACY.md](PRIVACY.md) for complete privacy policy.
+
+---
+
+## Contact & Licensing Inquiries
+
+For licensing questions, commercial use, or other inquiries:
+
+- **Email:** [your-email@example.com]
+- **GitHub Issues:** https://github.com/yourusername/cymatune-lt/issues (for bug reports only)
+- **Website:** [your-website.com]
+
+---
+
+## Version
+
+**License Version:** 1.0  
+**Last Updated:** 2025-12-02  
+**Applies To:** Cymatune LT v1.0.0 and later
+
+---
+
+**© 2024-2025 Cymatune LT Development Team. All Rights Reserved.**
