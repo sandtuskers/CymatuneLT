@@ -56,7 +56,6 @@ Cymatune LT uses a **self-learning approach**:
 
 ## 📖 Documentation
 
-- **[Complete Documentation](PROJECT_DOCS.md)** - Architecture, algorithms, testing
 - **[Research References](ACKNOWLEDGMENTS.md)** - Academic papers and inspirations
 - **[Privacy Policy](PRIVACY_POLICY.md)** - Data handling and permissions PRIVACY_POLICY.md
 
@@ -69,8 +68,6 @@ You can validate detection without specialized hardware:
 1. **Geographic Anomaly Test:** Install on emulator (US towers) and use from a different country
 2. **Trust Score Test:** Monitor familiar towers over several days
 3. **Signal Analysis Test:** Walk around and observe RSRP/RSRQ changes
-
-See [Testing Strategy](PROJECT_DOCS.md#testing-strategy) for details.
 
 ---
 
