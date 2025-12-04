@@ -50,7 +50,6 @@ Cymatune LT uses a **self-learning approach**:
 - SMS permission (optional, for silent SMS detection)
 
 ### Download
-- **Beta Testing:** [Join the beta program](https://github.com/yourusername/cymatune-lt/releases)
 - **Play Store:** Coming soon
 
 
@@ -59,7 +58,7 @@ Cymatune LT uses a **self-learning approach**:
 
 - **[Complete Documentation](PROJECT_DOCS.md)** - Architecture, algorithms, testing
 - **[Research References](ACKNOWLEDGMENTS.md)** - Academic papers and inspirations
-- **[Privacy Policy](PRIVACY.md)** - Data handling and permissions
+- **[Privacy Policy](PRIVACY_POLICY.md)** - Data handling and permissions PRIVACY_POLICY.md
 
 ---
 
